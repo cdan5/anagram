@@ -48,20 +48,6 @@ namespace Anagram
                 Console.WriteLine(line);
             }
 
-
-            //Dictionary<int[], List<string>> anagrams = new Dictionary<int[], List<string>>();
-            //foreach (string word in words){
-            //    int[] letterCount = new int[26];
-            //    foreach (int letter in word){
-            //        letterCount[letter - (int)'a'] += 1;
-            //    }
-
-            //    if (!anagrams.ContainsKey(letterCount)){
-            //        anagrams[letterCount] = new List<string>();
-            //    }
-            //    anagrams[letterCount].Add(word);
-            //}
-
             Console.ReadLine();
         }
     }
